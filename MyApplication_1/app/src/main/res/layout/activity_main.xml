@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#D1E4F3"
+    android:orientation="vertical"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/tvSoA"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="So A"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edSoA"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/tvSoB"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="So B"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edSoB"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/btnCong"
+            android:onClick="XulyCong" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/btnTru"
+            android:onClick="XulyTru" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/btnNhan"
+            android:onClick="XulyNhan" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:id="@+id/btnChia"
+            android:onClick="XulyChia" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KET QUA"
+        android:id="@+id/tvKetQua"
+        />
+
+</LinearLayout>
