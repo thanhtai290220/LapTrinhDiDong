@@ -1,7 +1,5 @@
 package tai.nt.mylogin;
 
-import android.app.Activity;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
