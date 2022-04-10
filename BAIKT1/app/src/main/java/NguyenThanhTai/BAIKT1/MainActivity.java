@@ -27,5 +27,14 @@ public class MainActivity extends AppCompatActivity {
         addView();
     }
 
-    
+    public void DangNhap(View v)
+    {
+        dem = dem + 1;
+
+        if(edtTen.getText().toString().compareTo("maicuongtho") == 0  && edtPass.getText().toString().compareTo("Cntt60ntu!") == 0)
+            Toast.makeText(MainActivity.this, "User and Password is correct!!", Toast.LENGTH_LONG).show();
+        else
+            Toast.makeText(MainActivity.this, "User and Password is wrong", Toast.LENGTH_SHORT).show();
+        txtAttempt.setText(String.valueOf(dem));
+    }
 }
