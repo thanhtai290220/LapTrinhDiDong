@@ -31,15 +31,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void Money(View v)
-      {
-        if(rd13.isChecked())
-            Toast.makeText(MainActivity.this,String.valueOf(Float.valueOf(EDMoney.getText().toString()) * 0.13) ,Toast.LENGTH_LONG).show();
-        else
-        if(rd15.isChecked())
-            Toast.makeText(MainActivity.this,String.valueOf(Float.valueOf(EDMoney.getText().toString()) * 0.15) ,Toast.LENGTH_LONG).show();
-        else
-        if (rd18.isChecked())
-            Toast.makeText(MainActivity.this,String.valueOf(Float.valueOf(EDMoney.getText().toString()) * 0.18) ,Toast.LENGTH_LONG).show();
-    }
+   
 }
