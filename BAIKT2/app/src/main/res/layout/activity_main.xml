@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/edTien"
+        android:id="@+id/edMoney"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -46,6 +46,6 @@
         android:layout_gravity="right"
         android:text="CALCULATE YOUR TIP"
         android:textColor="#0C0C0C"
-        android:onClick="TinhTien"
+        android:onClick="Money"
         app:backgroundTint="#D5CDCD"/>
 </LinearLayout>
