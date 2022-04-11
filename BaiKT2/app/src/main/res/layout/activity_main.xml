@@ -23,19 +23,22 @@
             android:id="@+id/RB13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="13%" />
+            android:text="13%"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/RB15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="15%" />
+            android:text="15%"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/RB18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="18%" />
+            android:text="18%"
+            android:textStyle="bold" />
     </RadioGroup>
 
 
@@ -44,8 +47,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:text="CALCULATE YOUR TIP"
-        android:textColor="#0C0C0C"
         android:onClick="Money"
-        app:backgroundTint="#D5CDCD"/>
+        android:text="CALCULATE YOUR TIP"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#D5CDCD" />
 </LinearLayout>
