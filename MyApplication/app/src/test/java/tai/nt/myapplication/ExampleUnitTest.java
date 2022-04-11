@@ -1,4 +1,4 @@
-package NguyenThanhTai.baikt2;
+package tai.nt.myapplication;
 
 import org.junit.Test;
 
