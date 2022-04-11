@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="money" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RB13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13%" />
+
+        <RadioButton
+            android:id="@+id/RB15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15%" />
+
+        <RadioButton
+            android:id="@+id/RB18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18%" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/buttonTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="CALCULATE YOUR TIP"
+        android:textColor="#0C0C0C"
+        android:onClick="Money"
+        app:backgroundTint="#D5CDCD"/>
+</LinearLayout>
