@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edTien"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -20,19 +20,19 @@
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/RB13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="13%" />
 
         <RadioButton
-            android:id="@+id/radioButton5"
+            android:id="@+id/RB15"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="15%" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/RB18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="18%" />
@@ -40,7 +40,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonTip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
