@@ -46,5 +46,6 @@
         android:layout_gravity="right"
         android:text="CALCULATE YOUR TIP"
         android:textColor="#0C0C0C"
+        android:onClick="TinhTien"
         app:backgroundTint="#D5CDCD"/>
 </LinearLayout>
