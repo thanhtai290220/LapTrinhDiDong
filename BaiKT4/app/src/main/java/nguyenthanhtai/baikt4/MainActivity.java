@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         List<ConVat> list = new ArrayList<ConVat>();
-        ConVat cran = new ConVat("Ga", R.drawable.chicken, " Nuoi lay thit và trung");
-        ConVat cheo = new ConVat("Pig", R.drawable.pig, "Delicious in rolls");
-        ConVat cmuc = new ConVat("Mực", R.drawable.muc, "8 tentacled monster");
-        ConVat ctho = new ConVat("Thỏ", R.drawable.tho, "nice in a stew");
-        ConVat ccuu = new ConVat("Cừu", R.drawable.cuu, "great for jumber");
+        ConVat cran = new ConVat("Gà", R.drawable.chicken, "Nuôi lấy thịt và trứng");
+        ConVat cheo = new ConVat("Heo", R.drawable.pig, "Nuôi lấy thịt");
+        ConVat cmuc = new ConVat("Ong", R.drawable.bee, "Nuôi lấy mật");
+        ConVat ctho = new ConVat("Thỏ", R.drawable.rabbit, "Nuôi lấy thịt và lông");
+        ConVat ccuu = new ConVat("Chó", R.drawable.dog, "Giúp canh nhà");
         ConVat cnhen = new ConVat("Nhện", R.drawable.nhen, "great for jumber");
         final boolean add = list.add(cran);
         list.add(cheo);
