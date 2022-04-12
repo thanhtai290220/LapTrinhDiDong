@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ConVat cmuc = new ConVat("Ong", R.drawable.bee, "Nuôi lấy mật");
         ConVat ctho = new ConVat("Thỏ", R.drawable.rabbit, "Nuôi lấy thịt và lông");
         ConVat ccuu = new ConVat("Chó", R.drawable.dog, "Giúp canh nhà");
-        ConVat cnhen = new ConVat("Nhện", R.drawable.nhen, "great for jumber");
+        ConVat cnhen = new ConVat("Rùa", R.drawable.turtle,"Nuôi làm cảnh");
         final boolean add = list.add(cran);
         list.add(cheo);
         list.add(cmuc);
@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
         list.add(cnhen);
         final ListView listView = (ListView) findViewById(R.id.listViewQG);
         listView.setAdapter(new myCustomListAdapter(list, this));
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> a, View v, int position, long id) {
-                Object o = listView.getItemAtPosition(position);
-                ConVat animal = (ConVat) o;
-                Toast.makeText(MainActivity.this, "Selected :" + " " + animal, Toast.LENGTH_SHORT).show();
-            }
-        });
+        //listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+         //   @Override
+         //   public void onItemClick(AdapterView<?> a, View v, int position, long id) {
+          //      Object o = listView.getItemAtPosition(position);
+         //       ConVat animal = (ConVat) o;
+         //       Toast.makeText(MainActivity.this, "Selected :" + " " + animal, Toast.LENGTH_SHORT).show();
+          //  }
+       // });
     }
 }
