@@ -1,4 +1,4 @@
-package NguyenThanhTai.BAIKT1;
+package nguyenthanhtai.baikt1;
 
 import org.junit.Test;
 
